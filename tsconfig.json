@@ -17,12 +17,12 @@
       "es6"
     ],
     "types": [
+      "mocha",
       "chai",
       "node",
       "source-map",
       "uglify-js",
-      "webpack",
-      "source-map"
+      "webpack"
     ]
   },
   "exclude": [
