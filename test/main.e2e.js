@@ -1,9 +1,9 @@
 module.exports = {
-  'nightwatch demo': (client) => {
+  'Continuous Integration with Travis-CI': (client) => {
     client
       .url('http://localhost:3000')
       .waitForElementVisible('body', 10000)
-      .assert.title('nightwatch demo')
+      .assert.title('Continuous Integration with Travis-CI')
       .assert.visible('input#num1')
       .setValue('input#num1', '7')
       .assert.visible('input#num2')

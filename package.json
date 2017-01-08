@@ -5,7 +5,7 @@
   "scripts": {
     "test": "karma start",
     "watch:test": "npm run test -- --auto-watch --no-single-run",
-    "browser": "nightwatch -e chrome",
+    "nightwatch": "nightwatch -e chrome",
     "start": "webpack-dev-server --config webpack.config.js --watch --inline -d",
     "build": "webpack --display-error-details --config webpack.config.js --progress --profile"
   },
@@ -37,6 +37,7 @@
     "angular2-template-loader": "^0.6.0",
     "awesome-typescript-loader": "~3.0.0-beta.17",
     "chai": "^3.5.0",
+    "chromedriver": "^2.27.1",
     "codelyzer": "~2.0.0-beta.4",
     "css-loader": "^0.26.0",
     "file-loader": "^0.9.0",
@@ -53,6 +54,7 @@
     "mocha": "^3.2.0",
     "nightwatch": "^0.9.11",
     "raw-loader": "0.5.1",
+    "selenium-server-standalone-jar": "^3.0.1",
     "source-map-loader": "^0.1.5",
     "string-replace-loader": "1.0.5",
     "to-string-loader": "^1.1.4",
