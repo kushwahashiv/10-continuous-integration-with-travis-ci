@@ -1,0 +1,54 @@
+{
+  "src_folders": [
+    "test/main.e2e.js"
+  ],
+  "output_folder": "reports",
+  "selenium": {
+    "start_process": false,
+    "server_path": "node_modules/selenium-server-standalone-jar/jar/selenium-server-standalone-3.0.1.jar",
+    "log_path": "",
+    "host": "127.0.0.1",
+    "port": 4444,
+    "cli_args": {
+      "webdriver.chrome.driver": "node_modules/chromedriver/bin/chromedriver",
+      "webdriver.ie.driver": ""
+    }
+  },
+  "test_workers": {
+    "enabled": true,
+    "workers": "auto"
+  },
+  "test_settings": {
+    "default": {
+      "launch_url": "http://localhost",
+      "selenium_port": 80,
+      "selenium_host": "ondemand.saucelabs.com",
+      "silent": true,
+      "screenshots": {
+        "enabled": true,
+        "path": ""
+      },
+      "username": "typescriptcookbook",
+      "access_key": "d6fabf65-fa7c-4987-b628-056095c0ebcc",
+      "desiredCapabilities": {
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      }
+    },
+    "ch": {
+      "desiredCapabilities": {
+        "browserName": "chrome"
+      }
+    },
+    "ff": {
+      "desiredCapabilities": {
+        "browserName": "firefox"
+      }
+    },
+    "ie": {
+      "desiredCapabilities": {
+        "browserName": "internet explorer"
+      }
+    }
+  }
+}

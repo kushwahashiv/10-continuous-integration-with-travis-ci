@@ -1,0 +1,18 @@
+<div>
+  <div>
+    <h2>Calculator!</h2>
+    <div>
+      <label>A: </label>
+      <input id="num1" [(ngModel)]="num1" placeholder="Enter a number"/>
+    </div>
+    <div>
+      <label>B: </label>
+      <input id="num2" [(ngModel)]="num2" placeholder="Enter a number"/>
+    </div>
+    <button id="save" (click)="save()" style="margin-left: 30px;width: 200px; height: 35px;">Add</button>
+  </div>
+  <hr>
+  <div>
+    <label id="sum">Sum:{{sum}}</label>
+  </div>
+</div>
