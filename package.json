@@ -1,5 +1,5 @@
 {
-  "name": "10-continuous-integration-with-travis-ci",
+  "name": "09-continuous-integration-with-travis-ci",
   "version": "1.0.0",
   "description": "continuous integration travis-ci",
   "scripts": {
